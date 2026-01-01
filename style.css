@@ -22,8 +22,9 @@ body{
   background-repeat: no-repeat;   /* image repeat band */
   background-size:100%;        /* poora screen cover */
   background-position: center; 
-  font-size:40px;
-  transform:scale(3.0);
+  font-size:36px;
+  transform:scale(2.5);
+  transform:translateX(100px);
   text-align:center;
 }
 
@@ -91,6 +92,7 @@ body{
   transform:translateX(-450px);
   background-color: black;
 }
+
 
 
 
