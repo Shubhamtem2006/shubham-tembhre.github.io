@@ -23,6 +23,8 @@ body{
   background-size:100%;        /* poora screen cover */
   background-position: center; 
   font-size:36px;
+  transform:scale(2.0);
+  text-align:center;
 }
 
 
@@ -89,6 +91,7 @@ body{
   transform: translateX(-450px);
   background-color: black;
 }
+
 
 
 
