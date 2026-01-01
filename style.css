@@ -14,6 +14,7 @@ body{
 .hero{
   background-image:url(cyber.jpg);
   display: flex;
+  flex-direction:column;
   justify-content:center;
   align-items:center;
   height:100vh;
@@ -92,6 +93,7 @@ body{
   transform:translateX(-450px);
   background-color: black;
 }
+
 
 
 
