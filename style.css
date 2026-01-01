@@ -10,20 +10,16 @@ body{
   text-align: center; 
 }
 
-.hero{
  
-  display:flex;
+.hero{
+  background-image:url(cyber.jpg);
+  display: flex;
   justify-content:center;
   align-items:center;
   height:100vh;
-  padding:0 80px;
-  background-image:url(cyber.jpg );
-  /* width: 100px; */
-  /* background-color: #030410; */
-  height: 100vh;
-  text-align: center;
-  transform: translateX(-450px);
+  width:center 200vh;
 }
+
 
 .text{
   max-width:50%;
@@ -87,3 +83,4 @@ body{
   transform: translateX(-450px);
   background-color: black;
 }
+
