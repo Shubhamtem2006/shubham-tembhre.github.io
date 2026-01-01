@@ -18,6 +18,10 @@ body{
   align-items:center;
   height:100vh;
   width:center 200vh;
+      
+  background-repeat: no-repeat;   /* image repeat band */
+  background-size: cover;        /* poora screen cover */
+  background-position: center; 
 }
 
 
@@ -83,4 +87,5 @@ body{
   transform: translateX(-450px);
   background-color: black;
 }
+
 
