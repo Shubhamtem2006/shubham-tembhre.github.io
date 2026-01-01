@@ -16,12 +16,13 @@ body{
   display: flex;
   justify-content:center;
   align-items:center;
-  height:100vh;
+  height:80vh;
   width:center 200vh;
       
   background-repeat: no-repeat;   /* image repeat band */
-  background-size: cover;        /* poora screen cover */
+  background-size:50%;        /* poora screen cover */
   background-position: center; 
+  font-size:36px;
 }
 
 
@@ -77,6 +78,7 @@ body{
 }
 
 .img img{
+  heith: auto;
   width:280px;
   border-radius:50%;
    
@@ -87,5 +89,6 @@ body{
   transform: translateX(-450px);
   background-color: black;
 }
+
 
 
