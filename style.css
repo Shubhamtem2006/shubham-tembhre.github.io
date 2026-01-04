@@ -92,7 +92,7 @@ body {
   margin:0;
   font-family: Arial;
   background:#f5f7ff;
-  background:image cyber.jpg;
+  background-image:url(cyber.jpg);
 }
 
 .hero{
@@ -135,3 +135,4 @@ h1 span{
   border-radius:50%;
 
 }
+
