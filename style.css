@@ -89,6 +89,7 @@ body {
     background-color: black;
   } */ 
    body{
+  zoom:80%
   margin:0;
   font-family: Arial;
   background:#f5f7ff;
@@ -135,4 +136,5 @@ h1 span{
   border-radius:50%;
 
 }
+
 
