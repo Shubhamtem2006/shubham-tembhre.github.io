@@ -1,4 +1,4 @@
-/* *{
+*{
   margin:0;
   padding:0;
   box-sizing:border-box;
@@ -21,14 +21,13 @@ body{
   width:center 100vh;
       
   background-repeat: no-repeat;   /* image repeat band */
-  background-size:100%;        /* poora screen cover */
-  /* background-position: center; 
+  background-size:100%;        /* poora screen cover */ */
+  background-position: center; 
   font-size:39px;
   transform:scale(2.7);
-  /* transform:translateX(100px); */
-  /* text-align: center; */
-}
-/* 
+ transform:translateX(100px);
+   text-align: center; 
+} 
 
 .text{
   max-width:100%;
@@ -92,11 +91,11 @@ body{
   text-align: center;
   transform:translateX(-450px);
   background-color: black;
-} */ */ */
+} 
 
 
 
-*{
+/* *{
   margin:0;
   padding:0;
   box-sizing:border-box;
@@ -169,7 +168,8 @@ body{
   width:280px;
   border-radius:50%;
 
-}
+} */
+
 
 
 
