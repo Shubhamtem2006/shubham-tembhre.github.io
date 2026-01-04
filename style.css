@@ -1,4 +1,4 @@
-*{
+/* *{
   margin:0;
   padding:0;
   box-sizing:border-box;
@@ -22,13 +22,13 @@ body{
       
   background-repeat: no-repeat;   /* image repeat band */
   background-size:100%;        /* poora screen cover */
-  background-position: center; 
+  /* background-position: center; 
   font-size:39px;
   transform:scale(2.7);
   /* transform:translateX(100px); */
-  text-align: center;
+  /* text-align: center; */
 }
-
+/* 
 
 .text{
   max-width:100%;
@@ -92,8 +92,84 @@ body{
   text-align: center;
   transform:translateX(-450px);
   background-color: black;
+} */ */ */
+
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 
+body{
+  font-family: Arial, sans-serif;
+  background:#f5f7ff;
+}
+
+.hero{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  height:50px;
+  width:50px;
+  padding:0 80px;
+  taxt-align:center;
+}
+
+.text{
+  max-width:50%;
+   taxt-align:center;
+}
+
+.text h1{
+  font-size:48px;
+  color:#0b1c44;
+   taxt-align:center;
+}
+
+.text h1 span{
+  color:orange;
+   taxt-align:center;
+}
+
+.text p{
+  margin:15px 0;
+  font-size:18px;
+   taxt-align:center;
+}
+
+.btn{
+  display:inline-block;
+  padding:12px 25px;
+  background:#3b49df;
+  color:#fff;
+  border-radius:25px;
+  text-decoration:none;
+}
+
+.social{
+  margin-top:20px;
+}
+
+.social a{
+  display:inline-block;
+  width:40px;
+  height:40px;
+  background:#111;
+  color:#fff;
+  border-radius:50%;
+  text-align:center;
+  line-height:40px;
+  margin-right:10px;
+  text-decoration:none;
+}
+
+.img img{
+  width:280px;
+  border-radius:50%;
+
+}
 
 
 
