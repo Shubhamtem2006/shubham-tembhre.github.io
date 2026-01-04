@@ -91,11 +91,12 @@ body {
 
 
 .body{
-  zoom:150%
+  font-size:50px;
+  zoom:200%;
   margin:0;
   font-family: Arial;
   background:#f5f7ff;
-  background-image:url(cyber.jpgl);
+  background-image:url(cyber.jpg);
 }
 
 .hero{
@@ -138,6 +139,7 @@ h1 span{
   border-radius:50%;
 
 }
+
 
 
 
