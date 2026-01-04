@@ -87,9 +87,11 @@ body {
     text-align: center;
     transform: translateX(-450px);
     background-color: black;
-  } */ 
-   body{
-  zoom:80%
+  } */
+
+
+.body{
+  zoom:120%
   margin:0;
   font-family: Arial;
   background:#f5f7ff;
@@ -136,5 +138,6 @@ h1 span{
   border-radius:50%;
 
 }
+
 
 
