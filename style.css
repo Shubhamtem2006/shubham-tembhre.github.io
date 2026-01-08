@@ -90,7 +90,7 @@ body {
   } */
 
 
-.body{
+/* .body{
   font-size:500px;
   zoom:0.8;
   margin:0;
@@ -141,8 +141,55 @@ h1 span{
   width:260px;
   border-radius:50%;
 
+} */
+
+ body{
+   font-size: 100px;
+   margin:0;
+   font-family: Arial;
+   background:#f5f7ff;
 }
 
+.hero{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  height:100vh;
+}
+
+h1{
+  font-size:42px;
+  color:#0b1c44;
+}
+
+h1 span{
+  color:orange;
+}
+
+.btn{
+  display:inline-block;
+  padding:12px 25px;
+  background:#3b49df;
+  color:white;
+  text-decoration:none;
+  border-radius:25px;
+  margin-top:15px;
+}
+
+.social a{
+  font-size: 50px;
+  margin:10px;
+  /* background:black; */
+  color:rgb(8, 0, 0);
+  padding:10px;
+  border-radius:50%;
+  text-decoration:none;
+}
+
+.img img{
+  width:260px;
+  border-radius:50%;
+}
 
 
 
