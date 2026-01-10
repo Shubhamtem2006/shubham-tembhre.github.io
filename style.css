@@ -147,7 +147,8 @@ h1 span{
    font-size: 100px;
    margin:0;
    font-family: Arial;
-   background:#f5f7f6;
+   /* background:#f5f7f6; */
+   background-image:url(cyber.jpeg);
 }
 
 .hero{
@@ -190,6 +191,7 @@ h1 span{
   width:260px;
   border-radius:50%;
 }
+
 
 
 
