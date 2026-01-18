@@ -192,20 +192,22 @@ h1 span{
   border-radius:50%;
 }
 
-.container{
+/* .container{
   display: flex;
   fiex-wrap: wrap;
-}
+} */
 
 @media(max-width:200px){
   .profile{
     width:10px;
     height:10px;
   }
-  h1{
+}
+  /* h1{
     fond-size:10px;
   }
-}
+} */
+
 
 
 
