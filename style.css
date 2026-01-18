@@ -189,8 +189,8 @@ h1 span{
 
 .img img{
   text-align: center;
-  fond-size:100px;
-  width:260px;
+  /* fond-size:100px; */
+  width:300px;
   border-radius:50%;
 }
 
@@ -208,6 +208,7 @@ h1 span{
     fond-size:10px;
   }
 }
+
 
 
 
