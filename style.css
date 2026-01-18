@@ -148,11 +148,12 @@ h1 span{
    margin:0;
    font-family: Arial;
    /* background:#f5f7f6; */
-   background-image:url(cyber.jpeg);
+    
  }
 }
 
 .hero{
+  background-image:url(cyber.jpeg);
   display:flex;
   justify-content:space-around;
   align-items:center;
@@ -197,6 +198,7 @@ h1 span{
   display: flex;
   fiex-wrap: wrap;
 }8
+
 
 
 
