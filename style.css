@@ -142,13 +142,14 @@ h1 span{
   border-radius:50%;
 
 } */
-
+@media(max-width:600px){
  body{
    font-size: 100px;
    margin:0;
    font-family: Arial;
    /* background:#f5f7f6; */
    background-image:url(cyber.jpeg);
+ }
 }
 
 .hero{
@@ -192,6 +193,10 @@ h1 span{
   border-radius:50%;
 }
 
+.container{
+  display: flex;
+  fiex-wrap: wrap;
+}8
 
 
 
