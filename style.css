@@ -151,7 +151,7 @@ h1 span{
 }
 
 .hero{
-  background-image:url(cyber.jpeg);
+  /* background-image:url(cyber.jpeg); */
   display:flex;
   justify-content:space-around;
   align-items:center;
@@ -206,6 +206,7 @@ h1 span{
     fond-size:24px;
   }
 }
+
 
 
 
