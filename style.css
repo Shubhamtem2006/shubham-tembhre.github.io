@@ -197,7 +197,7 @@ h1 span{
   fiex-wrap: wrap;
 }8
 
-@media(max-width:768px){
+@media(max-width:600px){
   .profile{
     width:150px;
   }
@@ -205,6 +205,7 @@ h1 span{
     fond-size:24px;
   }
 }
+
 
 
 
