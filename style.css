@@ -144,7 +144,7 @@ h1 span{
 } */
  
  body{
-   font-size: 100px;
+   font-size: 50px;
    margin:0;
    font-family: Arial;
    /* background:#f5f7f6; */
@@ -195,17 +195,18 @@ h1 span{
 .container{
   display: flex;
   fiex-wrap: wrap;
-}8
+}
 
 @media(max-width:600px){
   .profile{
-    width:100px;
-    height:100px;
+    width:10px;
+    height:10px;
   }
   h1{
-    fond-size:24px;
+    fond-size:10px;
   }
 }
+
 
 
 
