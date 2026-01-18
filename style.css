@@ -199,12 +199,14 @@ h1 span{
 
 @media(max-width:600px){
   .profile{
-    width:150px;
+    width:100px;
+    height:100px;
   }
   h1{
     fond-size:24px;
   }
 }
+
 
 
 
