@@ -144,10 +144,8 @@ h1 span{
 } */
  
  body{
-   margin-top:10px;
-   margin-bottom:15px;
-   margin-leftL:20px;
-   margin-right:20px;
+   margin:20px;
+ 
    font-size: -5px;
    margin:0;
    font-family: Arial;
@@ -199,8 +197,8 @@ h1 span{
   border-radius:30%;
 }
 
-.container{
-  display: flex;
+/* .container{
+  display: flex; */
   /* fiex-wrap: wrap; */
 } 
 
@@ -214,7 +212,7 @@ h1 span{
   }
 } */
 
-@medie (max-width:768px){
+@medie (max-width:200px){
   .container{
     dispiay:flex;
     flex-direction:cilumn;
@@ -222,6 +220,7 @@ h1 span{
     text-align:center;
   }
 }
+
 
 
 
