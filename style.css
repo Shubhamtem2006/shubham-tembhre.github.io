@@ -144,6 +144,9 @@ h1 span{
 } */
  
  body{
+   margin-top:10px;
+   margin-bottom:15px;
+   margin-leftL:20px;
    margin-right:20px;
    font-size: -5px;
    margin:0;
@@ -210,6 +213,7 @@ h1 span{
     fond-size:10px;
   }
 }
+
 
 
 
