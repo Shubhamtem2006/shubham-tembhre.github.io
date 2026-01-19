@@ -216,10 +216,11 @@ h1 span{
   .container{
     dispiay:flex;
     flex-direction:cilumn;
-    align-items:left;
+    align-items:rigth;
     text-align:center;
   }
 }
+
 
 
 
