@@ -204,7 +204,7 @@ h1 span{
   /* fiex-wrap: wrap; */
 } 
 
-@media(max-width:200px){
+/* @media(max-width:200px){
   .profile{
     width:10px;
     height:10px;
@@ -212,8 +212,14 @@ h1 span{
    h1{
     fond-size:10px;
   }
-}
+} */
 
+@medie (max-width:768px){
+  .container{
+    align-items:center;
+    text-align:center;
+  }
+}
 
 
 
