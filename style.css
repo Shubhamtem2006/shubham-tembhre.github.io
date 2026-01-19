@@ -143,7 +143,7 @@ h1 span{
 
 } */
  
- body{
+ /* body{
    margin:20px;
  
    font-size: -5px;
@@ -155,22 +155,22 @@ h1 span{
 
 .hero{
   /* background-image:url(cyber.jpeg); */
-  display:flex;
+  /* display:flex;
   justify-content:space-around;
   align-items:center;
   height:100vh;
-}
+} */
 
-h1{
+/* h1{
   font-size:42px;
   color:#0b1c44;
-}
+} */
 
-h1 span{
+/* h1 span{
   color:orange;
-}
+} */
 
-.btn{
+/* .btn{
   display:inline-block;
   padding:12px 25px;
   background:#3b49df;
@@ -178,24 +178,24 @@ h1 span{
   text-decoration:none;
   border-radius:25px;
   margin-top:15px;
-}
+} */
 
-.social a{
+/* .social a{
   font-size: 10px;
   margin:10px;
   /* background:black; */
-  color:rgb(8, 0, 0);
+  /* color:rgb(8, 0, 0);
   padding:10px;
   border-radius:50%;
-  text-decoration:none;
-}
+  text-decoration:none; */
+} */
 
-.img img{
+/* .img img{
   text-align: center;
   /* fond-size:100px; */
-  width:260px;
+  /* width:260px; */
   border-radius:30%;
-}
+} */
 
 /* .container{
   display: flex; */
@@ -212,14 +212,15 @@ h1 span{
   }
 } */
 
-@medie (max-width:200px){
+/* @medie (max-width:200px){
   .container{
     dispiay:flex;
     flex-direction:cilumn;
     align-items:right;
     text-align:center;
-  }
-}
+  } */
+} */
+
 
 
 
