@@ -216,10 +216,13 @@ h1 span{
 
 @medie (max-width:768px){
   .container{
+    dispiay:flex;
+    flex-direction:cilumn;
     align-items:center;
     text-align:center;
   }
 }
+
 
 
 
