@@ -1,370 +1,340 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title> Shubham Tembhre|Official Website</title>
+<title>Shubham Tembhre | Official Website</title>
 
-<!-- Font Awesome Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 <style>
+
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family: Arial, sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
 }
 
 body{
-    background:#f5f7fb;
+background:#f5f7fb;
 }
 
 /* HEADER */
+
 header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:15px 20px;
-    background:#fff;
-    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 20px;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 
-header img{
-    color:#0a1f44;
-     width:30px;
-    height:30px;
-    border-radius:50%;
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
 }
 
-  header h2{
-    color:#0a1f44;
-    text-align:right;
-  }
+.logo img{
+width:40px;
+height:40px;
+border-radius:50%;
+}
+
+.logo h2{
+color:#0a1f44;
+}
 
 .menu{
-    font-size:24px;
+font-size:24px;
 }
 
-/* HERO SECTION */
+/* HERO */
+
 .hero{
-    padding:30px 20px;
-    text-align:center;
+text-align:center;
+padding:30px 20px;
+max-width:1000px;
+margin:auto;
 }
 
 .hero h1{
-    font-size:32px;
-    color:#0a1f44;
+font-size:35px;
+color:#0a1f44;
 }
 
-.hero h1 span{
-    color:orange;
+.hero span{
+color:orange;
 }
 
 .hero p{
-    margin-top:10px;
-    font-size:18px;
+margin-top:10px;
+font-size:18px;
 }
 
 /* BUTTON */
+
 .btn{
-    display:inline-block;
-    margin-top:20px;
-    padding:12px 25px;
-    background:#4b2ed4;
-    color:white;
-    border-radius:30px;
-    text-decoration:none;
-    font-weight:bold;
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#4b2ed4;
+color:white;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
 }
 
-/* SOCIAL ICONS */
+/* SOCIAL */
+
 .social{
-    margin:25px 0;
+margin:25px 0;
 }
 
 .social a{
-    display:inline-block;
-    width:50px;
-    height:50px;
-    line-height:45px;
-    margin:5px;
-    border-radius:50%;
-    background:#0a1f44;
-    color:white;
-    font-size:30px;
+display:inline-block;
+width:50px;
+height:50px;
+line-height:50px;
+border-radius:50%;
+background:#0a1f44;
+color:white;
+font-size:22px;
+margin:5px;
 }
 
-/* PROFILE IMAGE */
-.profile{
-    margin-top:20px;
-}
+/* PROFILE */
 
 .profile img{
-    width:230px;
-    height:230px;
-    border-radius:50%;
-    object-fit:cover;
-    border:6px solid white;
+width:220px;
+height:220px;
+border-radius:50%;
+object-fit:cover;
+border:6px solid white;
+margin-top:20px;
 }
 
+/* ABOUT */
 
-/* body{
-    /* background:#111; */
-    /* display:flex;
-    justify-content:center; */
-/* } */
+.about{
+margin-top:20px;
+}
+
+.about b{
+display:block;
+margin-top:5px;
+}
+
+/* SKILLS */
 
 .phone{
-   /* display: flex;  */
-    justify-content: center;
-    align-items: center;
-    /* min-height: 100vh; */
-    width:360px;
-    background:#5b00c9;
-    padding:15px;
-    font-size: center;
+background:green;
+padding:20px;
+margin-top:30px;
+border-radius:10px;
 }
 
-/* Heading */
 .title{
-    text-align:center;
-    color:#ffd700;
-    font-weight:bold;
-    margin:10px 0;
+text-align:center;
+color:#ffd700;
+margin-bottom:20px;
 }
 
-/* Skill Section */
 .skills{
-    display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
-    gap:15px;
-    padding:20px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+gap:15px;
 }
 
 .skill-card{
-    background:#1b1b3a;
-    border-radius:15px;
-    padding:15px;
-    text-align:center;
-    text-decoration:none;
-    color:#fff;
-    transition:0.3s;
-    box-shadow:0 0 10px rgba(0,0,0,0.4);
+background:#1b1b3a;
+border-radius:15px;
+padding:15px;
+text-align:center;
+color:white;
+text-decoration:none;
+transition:0.3s;
 }
 
 .skill-card:hover{
-    transform:scale(1.05);
-    background:#4cc9f0;
-    color:#000;
+transform:scale(1.05);
+background:#4cc9f0;
+color:black;
 }
 
 .skill-card img{
-    width:40px;
-    height:40px;
-    margin-bottom:8px;
+width:40px;
+height:40px;
+margin-bottom:8px;
 }
 
-/* Section title */
+/* EDUCATION */
+
 .section-title{
-    color:#fff;
-    margin:20px 0 10px;
-    font-weight:bold;
+margin:25px 0 10px;
+font-weight:bold;
+color:white;
 }
 
-/* Card */
 .card{
-    background:#fff;
-    border-radius:10px;
-    margin-bottom:10px;
-    padding:10px;
+background:white;
+border-radius:10px;
+padding:10px;
+margin-bottom:10px;
 }
 
 .card img{
-    width:100%;
-    border-radius:8px;
+width:100%;
+border-radius:8px;
 }
 
 .card h4{
-    margin-top:8px;
-    font-size:14px;
+margin-top:8px;
 }
 
-.card p{
-    font-size:12px;
-    color:#444;
-}
+/* EXPERIENCE */
 
-/* Experience */
 .exp{
-    background:#ffb000;
-    border-radius:10px;
-    padding:10px;
-    margin-bottom:10px;
-}
-
-.exp h4{
-    font-size:14px;
-}
-
-.exp p{
-    font-size:12px;
+background:#ffb000;
+border-radius:10px;
+padding:10px;
+margin-bottom:10px;
 }
 
 /* RESPONSIVE */
-@media(min-width:768px){
-    .hero h1{
-        font-size:42px;
-    }
+
+@media (min-width:768px){
+
+.hero{
+display:grid;
+grid-template-columns:1fr 1fr;
+align-items:center;
+gap:40px;
+text-align:left;
 }
+
+.profile img{
+width:300px;
+height:300px;
+}
+
+}
+
 </style>
 </head>
 
 <body>
 
 <header>
- <h3>   <img src="shu.jpg" <h2>shubham</h3> 
-        <i class="fas fa-bars"></i>
-    </div>
+
+<div class="logo">
+<img src="shu.jpg">
+<h2>Shubham</h2>
+</div>
+
+<div class="menu">
+<i class="fas fa-bars"></i>
+</div>
+
 </header>
 
 <section class="hero">
-    <h1>Hi There,<br>I'm <br> <span> Shubham Tembhre</span></h1>
-    <p>I Am Into Web Development</p>
 
-    <a href="#" class="btn">About Me</a>
+<div>
 
-    <div class="social">
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://wa.me/6269100685"><i class="fab fa-whatsapp"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="https://t.me/+9Ymlt3M-BJc2MDNl"><i class="fab fa-telegram"></i></a>
-        <a href="https://www.instagram.com/shubhamtem?igsh=MTc3ZTZwbWRhdGN1dQ=="><i class="fab fa-instagram"></i></a>
-    </div>
+<h1>Hi There,<br>I'm <span>Shubham Tembhre</span></h1>
 
-    <div class="profile">
-        <img src="ME1.jpeg" alt="Profile">
-    </div>
-    <h2 style="color:orange;">I'm shubham</h2><br>
+<p>I Am Into Web Development</p>
 
-         <b>Software Engineer</b><br>
+<a href="#" class="btn">About Me</a>
 
-         <p style="color:green;">  I am a Software Engineer based in madhya pradesh, India.
-           I am very passionate about improving my coding skills & developing applications & websites. 
-           Working for myself to improve my skills. Love to build Full-Stack clones.</b> <br>
+<div class="social">
 
-        <p> <b style="color:blue;">Email:</b> tembhareshubham90@gmail.com <br>  
-          
-        <b style="color:blue;">Place: </b> balaghat, madhya pradesh, 481115 </p>
+<a href="#"><i class="fab fa-linkedin-in"></i></a>
 
-        <div class="phone">
+<a href="https://wa.me/6269100685"><i class="fab fa-whatsapp"></i></a>
 
-    <div class="title"><h2></h2>This Skills Is Yet To Be Achieved </h2></div>
+<a href="#"><i class="fab fa-twitter"></i></a>
 
-   <div class="skills">
+<a href="https://t.me/+9Ymlt3M-BJc2MDNl"><i class="fab fa-telegram"></i></a>
 
-<a href="#" class="skill-card">
-<img src="https://cdn-icons-png.flaticon.com/512/919/919851.png">
-<div>ReactJS</div>
-</a>
-
-<a href="#" class="skill-card">
-<img src="https://cdn-icons-png.flaticon.com/512/919/919825.png">
-<div>NodeJS</div>
-</a>
-
-<a href="#" class="skill-card">
-<img src="https://cdn-icons-png.flaticon.com/512/919/919826.png">
-<div>ExpressJS</div>
-</a>
-
-<a href="#" class="skill-card">
-<img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png">
-<div>Firebase</div>
-</a>
-
-<a href="#" class="skill-card">
-<img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">
-<div>HTML</div>
-</a>
-
-<a href="#" class="skill-card">
-<img src="https://cdn-icons-png.flaticon.com/512/732/732190.png">
-<div>CSS</div>
-</a>
-
-<a href="#" class="skill-card">
-<img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png">
-<div>JavaScript</div>
-</a>
-
-<a href="#" class="skill-card">
-<img src="https://cdn-icons-png.flaticon.com/512/919/919828.png">
-<div>PHP</div>
-</a>
-
-<a href="#" class="skill-card">
-<img src="https://cdn-icons-png.flaticon.com/512/919/919852.png">
-<div>Python</div>
-</a>
-
-<a href="#" class="skill-card">
-<img src="https://cdn-icons-png.flaticon.com/512/919/919836.png">
-<div>MySQL</div>
-</a>
-
+<a href="https://www.instagram.com/shubhamtem"><i class="fab fa-instagram"></i></a>
 
 </div>
 
-    <div class="section-title">My Education</div>
+<div class="about">
 
-    <div class="card">
-        <img src="nri.jpeg">
-        <h4>Diploma in Computer Science</h4>
-        <p>2022 – 2025 | Studying</p>
-    </div>
+<b style="color:orange">Software Engineer</b>
 
-    <div class="card">
-        <h4>12th (Intermediate)</h4>
-        <p>2020 – 2022 | Completed</p>
-    </div>
+<p>I am a Software Engineer based in Madhya Pradesh, India.  
+I love building websites and improving my coding skills.</p>
 
-    <div class="section-title">Experience</div>
-
-    <div class="exp">
-        <h4>Internship</h4>
-        <p>Web Development</p>
-    </div>
-
-    <div class="exp">
-        <h4>Freelancer</h4>
-        <p>Basic Website Projects</p>
-    </div>
+<p>
+<b style="color:blue">Email:</b> tembhareshubham90@gmail.com<br>
+<b style="color:blue">Place:</b> Balaghat, Madhya Pradesh
+</p>
 
 </div>
+
+</div>
+
+<div class="profile">
+<img src="ME1.jpeg">
+</div>
+
 </section>
- 
+
+<div class="phone">
+
+<h2 class="title"> This is my Skills</h2>
+
+<div class="skills">
+
+<a href="#" class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/919/919851.png"><div>React</div></a>
+
+<a href="#" class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/919/919825.png"><div>NodeJS</div></a>
+
+<a href="#" class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/732/732212.png"><div>HTML</div></a>
+
+<a href="#" class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/732/732190.png"><div>CSS</div></a>
+
+<a href="#" class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"><div>JavaScript</div></a>
+
+<a href="#" class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/919/919836.png"><div>MySQL</div></a>
+
+</div>
+
+<h2 class="section-title">My Education</h2>
+
+<div class="card">
+<img src="nri.jpeg">
+<h4>Diploma in Computer Science</h4>
+<p>2025 – 2027 | Studying</p>
+</div>
+
+<div class="card">
+<h4>12th (Intermediate)</h4>
+<p>2024 – 2025 | Completed</p>
+</div>
+
+<h2 class="section-title">Experience</h2>
+
+<div class="exp">
+<h4>Internship</h4>
+<p>Web Development</p>
+</div>
+
+<div class="exp">
+<h4>Freelancer</h4>
+<p>Basic Website Projects</p>
+</div>
+
+</div>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
