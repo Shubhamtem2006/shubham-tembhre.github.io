@@ -58,28 +58,26 @@ cursor:pointer;
 }
 
 #menuBox{
-position:fixed;
+display:none;
+position:absolute;
 top:50px;
-right:-230px;
-width:220px;
-height:100%;
+right:10px;
+width:200px;
 background:#0a1f44;
-transition:0.4s;
-padding-top:20px;
-z-index:999;
+border-radius:10px;
+overflow:hidden;
 }
 
 #menuBox.active{
-right:0;
+display:block;
 }
 
 #menuBox a{
 display:block;
-padding:15px;
 color:white;
 text-decoration:none;
-font-size:18px;
-border-bottom:1px solid rgba(255,255,255,.2);
+padding:15px;
+border-bottom:1px solid #555;
 }
 
 #menuBox a:hover{
@@ -311,17 +309,17 @@ background:#3720a0;
 </div>
 
 <nav id="menuBox">
-<a href="#home">Home</a>
-<a href="#about">About</a>
-<a href="#skills">Skills</a>
-<a href="#education">Education</a>
-<a href="#work">Work</a>
-<a href="#contact">Contact</a>
+<a href="#Home">Home</a>
+<a href="#About">About</a>
+<a href="#Skills">Skills</a>
+<a href="#Education">Education</a>
+<a href="#Work">Work</a>
+<a href="#Contact">Contact</a>
 </nav>
 
 </header>
 
-<section class="hero" id="home">
+<section class="hero" id="Home">
 
 <div>
 
@@ -347,7 +345,7 @@ background:#3720a0;
 
 </div>
 
-<div class="about" id="about">
+<div class="about" id="About">
 
 <b style="color:orange"><h2>Software Engineer </h2></b>
 
@@ -369,7 +367,7 @@ I love building websites and improving my coding skills.</p>
 
 </section>
 
-<div class="phone" id="skills">
+<div class="phone" id="Skills">
 
 <h2 class="title"> This is my Skills</h2>
 
