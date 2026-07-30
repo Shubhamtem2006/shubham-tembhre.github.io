@@ -9,3 +9,13 @@ function type(){
   }
 }
 type();
+
+function toggleMenu(){
+    document.getElementById("menuBox").classList.toggle("active");
+}
+
+document.querySelectorAll("#menuBox a").forEach(function(link){
+    link.addEventListener("click", function(){
+        document.getElementById("menuBox").classList.remove("active");
+    });
+});
