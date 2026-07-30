@@ -53,11 +53,41 @@
 
   .logo h2{
     color:#0a1f44;
-  }
+ .menu{
+font-size:26px;
+cursor:pointer;
+}
 
-  .menu{
-    font-size:24px;
-  }
+#navMenu{
+position:absolute;
+top:60px;
+right:15px;
+background:white;
+width:180px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,.2);
+display:none;
+overflow:hidden;
+z-index:999;
+}
+
+#navMenu a{
+display:block;
+padding:14px;
+text-decoration:none;
+color:#0a1f44;
+font-weight:bold;
+border-bottom:1px solid #ddd;
+}
+
+#navMenu a:hover{
+background:#4b2ed4;
+color:white;
+}
+
+#navMenu.show{
+display:block;
+}}
 
   /* HERO */
 
@@ -279,9 +309,18 @@ background:#3720a0;
 <h2>Shubham</h2>
 </div>
 
-<div class="menu">
+<div class="menu" onclick="toggleMenu()">
 <i class="fas fa-bars"></i>
 </div>
+
+<nav id="navMenu">
+<a href="#home" onclick="toggleMenu()">Home</a>
+<a href="#about" onclick="toggleMenu()">About</a>
+<a href="#skills" onclick="toggleMenu()">Skills</a>
+<a href="#education" onclick="toggleMenu()">Education</a>
+<a href="#work" onclick="toggleMenu()">Work</a>
+<a href="#contact" onclick="toggleMenu()">Contact</a>
+</nav>
 
 </header>
 
@@ -440,6 +479,9 @@ I love building websites and improving my coding skills.</p>
 </body>
 </html>
 </body>
+</html>
+</body>
+</html>
 </html>
 </body>
 </html>
