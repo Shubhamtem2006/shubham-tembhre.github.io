@@ -54,6 +54,54 @@
   .logo h2{
     color:#0a1f44;
   }
+
+  #themeBtn{
+    border:none;
+    background:#4b2ed4;
+    color:white;
+    padding:8px 12px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-right:10px;
+    font-size:18px;
+}
+
+.dark{
+    background:#121212;
+    color:white;
+}
+
+.dark header{
+    background:#1f1f1f;
+}
+
+.dark .hero h1,
+.dark .hero p,
+.dark .logo h2,
+.dark .about p,
+.dark .about b{
+    color:white;
+}
+
+.dark .card{
+    background:#2b2b2b;
+    color:white;
+}
+
+.dark .form-box{
+    background:#2b2b2b;
+}
+
+.dark .form-box input,
+.dark .form-box textarea{
+    background:#444;
+    color:white;
+    border:1px solid #666;
+}
+
+.dark .phone{
+    background:#1d4f2b;
+}
 .menu{
 cursor:pointer;
 font-size: 24px;
@@ -299,6 +347,7 @@ background:#3720a0;
 </head>
 
 <body>
+ 
 
 <header>
 
@@ -306,6 +355,7 @@ background:#3720a0;
 <img src="shu.jpg">
 <h2>Shubham</h2>
 </div>
+<button id="themeBtn" onclick="toggleTheme()">🌙</button>
 
 <div class="menu" onclick="toggleMenu()">
 <i class="fas fa-bars"></i>
@@ -455,7 +505,7 @@ I love building websites and improving my coding skills.</p>
 
 <form action="https://formsubmit.co/tembhareshubham90@gmail.com" method="POST" class="form-box">
 
-  <input type="hidden" name="_next" value="https://yourwebsite.com/thanks.html">
+  <input type="hidden" name="_next" value="thanks.html">
 
   <input type="text" name="name" placeholder="Your Name" required>
 
@@ -475,3 +525,5 @@ I love building websites and improving my coding skills.</p>
  <script src="script.js"></script>
 </body>
 </html>
+ 
+ 
