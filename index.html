@@ -53,40 +53,37 @@
 
   .logo h2{
     color:#0a1f44;
- .menu{
-font-size:26px;
+.menu{
 cursor:pointer;
 }
 
-#navMenu{
-position:absolute;
-top:60px;
-right:15px;
-background:white;
-width:180px;
-border-radius:10px;
-box-shadow:0 5px 20px rgba(0,0,0,.2);
-display:none;
-overflow:hidden;
+#menuBox{
+position:fixed;
+top:50px;
+right:-230px;
+width:220px;
+height:100%;
+background:#0a1f44;
+transition:0.4s;
+padding-top:20px;
 z-index:999;
 }
 
-#navMenu a{
-display:block;
-padding:14px;
-text-decoration:none;
-color:#0a1f44;
-font-weight:bold;
-border-bottom:1px solid #ddd;
+#menuBox.active{
+right:0;
 }
 
-#navMenu a:hover{
-background:#4b2ed4;
+#menuBox a{
+display:block;
+padding:15px;
 color:white;
+text-decoration:none;
+font-size:18px;
+border-bottom:1px solid rgba(255,255,255,.2);
 }
 
-#navMenu.show{
-display:block;
+#menuBox a:hover{
+background:#4b2ed4;
 }}
 
   /* HERO */
@@ -313,18 +310,18 @@ background:#3720a0;
 <i class="fas fa-bars"></i>
 </div>
 
-<nav id="navMenu">
-<a href="#home" onclick="toggleMenu()">Home</a>
-<a href="#about" onclick="toggleMenu()">About</a>
-<a href="#skills" onclick="toggleMenu()">Skills</a>
-<a href="#education" onclick="toggleMenu()">Education</a>
-<a href="#work" onclick="toggleMenu()">Work</a>
-<a href="#contact" onclick="toggleMenu()">Contact</a>
+<nav id="menuBox">
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#education">Education</a>
+<a href="#work">Work</a>
+<a href="#contact">Contact</a>
 </nav>
 
 </header>
 
-<section class="hero">
+<section class="hero" id="home">
 
 <div>
 
@@ -350,7 +347,7 @@ background:#3720a0;
 
 </div>
 
-<div class="about">
+<div class="about" id="about">
 
 <b style="color:orange"><h2>Software Engineer </h2></b>
 
@@ -372,7 +369,7 @@ I love building websites and improving my coding skills.</p>
 
 </section>
 
-<div class="phone">
+<div class="phone" id="skills">
 
 <h2 class="title"> This is my Skills</h2>
 
@@ -429,7 +426,7 @@ I love building websites and improving my coding skills.</p>
 
 </div>
 
-<h2 class="section-title">My Education</h2>
+<h2 class="section-title" id="Education">My Education</h2>
 
 <div class="card">
 <img src="nri.jpeg">
@@ -442,7 +439,7 @@ I love building websites and improving my coding skills.</p>
 <p>2024 – 2025 | Completed</p>
 </div>
 
-<h2 class="section-title">Experience</h2>
+<h2 class="section-title" id="Work">Experience</h2>
 
 <div class="exp">
 <h4>Internship</h4>
@@ -453,7 +450,7 @@ I love building websites and improving my coding skills.</p>
 <h4>Freelancer</h4>
 <p>Basic Website Projects</p>
 </div>
-<h2 class="section-title">Registration Form</h2>
+<h2 class="section-title" id="Contact">Registration Form</h2>
 
 <form action="https://formsubmit.co/tembhareshubham90@gmail.com" method="POST" class="form-box">
 
@@ -479,9 +476,6 @@ I love building websites and improving my coding skills.</p>
 </body>
 </html>
 </body>
-</html>
-</body>
-</html>
 </html>
 </body>
 </html>
